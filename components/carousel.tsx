@@ -209,8 +209,8 @@ const products = [
 export default function MyPage() {
   return (
     <div className="bg-white">
-    <div className="mx-auto  py-8 px-4 sm:py-12 sm:px-6 max-w-max lg:px-8">
-    <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 xl:gap-x-3">
+      <div className="mx-auto   px-4  sm:px-6 max-w-max lg:px-8">
+        <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 xl:gap-x-3">
           {products.map((product) => (
             <div key={product.id} className="group relative  cursor-pointer ">
               <div className="max-h-96 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-90 transition-all duration-300  ">
@@ -219,22 +219,21 @@ export default function MyPage() {
                   alt={product.imageAlt}
                   width={500}
                   height={500}
-                  className="h-full w-full object-cover object-center lg:h-full lg:w-full hover:scale-105 transition-all duration-1000"
+                  className="h-full w-full object-cover object-center lg:h-full lg:w-full hover:scale-105 transition-all duration-300"
                 />
               </div>
               <div className="mt-2 flex justify-between">
                 <div>
-                  <h3 className="w-full text-xl font-bold text-emerald-900 ">
+                  <h3 className="w-full text-base font-bold text-emerald-900 ">
                     {product.name}
                   </h3>
-                  <p className="text-sm font-bold text-lime-600">
-                    Desde {product.price}
+                  <p className="text-xs font-semibold text-lime-600">
+                    a partir de {product.price}
                   </p>
                 </div>
               </div>
               <hr className=" border-slate-300 mt-3" />
             </div>
-            
           ))}
         </div>
       </div>

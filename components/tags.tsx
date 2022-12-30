@@ -13,7 +13,7 @@ export default function Tags() {
     <div className="flex flex-wrap w-full justify-center p-7 text-sm  text-white">
       {data.map((i) => (
         <span
-          className="bg-indigo-600 p-1 px-3 mr-3 mb-1 rounded-full hover:bg-indigo-500 transition-all duration-300 cursor-pointer"
+          className="bg-indigo-700 p-1 px-3 mr-3 mb-1 rounded-full hover:bg-indigo-500 transition-all duration-300 cursor-pointer"
           key={i.name}
         >
           {i.name}
