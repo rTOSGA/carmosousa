@@ -10,10 +10,10 @@ const data = [
 
 export default function Tags() {
   return (
-    <div className="flex flex-wrap w-full justify-center p-7 pb-0 text-sm  text-white ">
+    <div className="flex flex-wrap w-full justify-center p-7 text-sm  text-white">
       {data.map((i) => (
         <span
-          className="bg-emerald-900 p-1 px-3 mr-3 mb-1 rounded-full hover:bg-emerald-700 transition-all duration-300 cursor-pointer"
+          className="bg-indigo-600 p-1 px-3 mr-3 mb-1 rounded-full hover:bg-indigo-500 transition-all duration-300 cursor-pointer"
           key={i.name}
         >
           {i.name}

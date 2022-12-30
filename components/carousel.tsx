@@ -232,7 +232,9 @@ export default function MyPage() {
                   </p>
                 </div>
               </div>
+              <hr className=" border-slate-300 mt-3" />
             </div>
+            
           ))}
         </div>
       </div>
