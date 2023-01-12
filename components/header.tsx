@@ -4,11 +4,11 @@ import Link from "next/link";
 export default function Header() {
   return (
     <div className="flex h-16 w-full justify-center bg-lime-300 shadow-2xl ">
-      <div className="flex mx-7 w-full  items-center px-5 2xl:px-0  text-2xl text-emerald-900 font-semibold tracking-wide">
+      <div className="flex mx-7 w-full justify-between  items-center px-5 2xl:px-0  text-2xl text-emerald-900 font-semibold tracking-wide">
         <button className="flex lg:hidden hover:bg-lime-200 p-2 rounded-full transition-all duration-300">
           <Bars3Icon className="w-8 h-8 cursor-pointer "></Bars3Icon>
         </button>
-        <h1 className="flex w-full lg:w-auto cursor-pointer justify-center transition-all duration-300">
+        <h1 className="flex w-full lg:w-auto cursor-pointer justify-center transition-all duration-300 ">
           <svg
             version="1.0"
             xmlns="http://www.w3.org/2000/svg"

@@ -209,8 +209,8 @@ const products = [
 export default function MyPage() {
   return (
     <div className="bg-white">
-      <div className="mx-auto   px-4  sm:px-6 max-w-max lg:px-8">
-        <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 xl:gap-x-3">
+      <div className="mx-auto   px-4  sm:px-6 max-w-7xl lg:px-8">
+        <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-5 xl:gap-x-3">
           {products.map((product) => (
             <div key={product.id} className="group relative  cursor-pointer ">
               <div className="max-h-96 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-90 transition-all duration-300  ">
