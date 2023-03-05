@@ -114,29 +114,23 @@ l26 -39 -21 -104 c-34 -165 -26 -223 38 -277 27 -22 42 -27 89 -27 72 0 138
         </h1>
         <div className="hidden lg:flex lg:w-full justify-center text-sm space-x-7 transition-all duration-300">
           <span className="hover:underline hover:underline-offset-8 hover:decoration-wavy cursor-pointer transition-all duration-300">
+            Flores
+          </span>
+          <span className="hover:underline hover:underline-offset-8 hover:decoration-wavy cursor-pointer transition-all duration-300">
             Ramos
           </span>
           <span className="hover:underline hover:underline-offset-8 hover:decoration-wavy cursor-pointer transition-all duration-300">
             Plantas
-          </span>
-          <span className="hover:underline hover:underline-offset-8 hover:decoration-wavy cursor-pointer transition-all duration-300">
-            Natal
-          </span>
-          <span className="hover:underline hover:underline-offset-8 hover:decoration-wavy cursor-pointer transition-all duration-300">
-            Acessórios
-          </span>
-          <span className="hover:underline hover:underline-offset-8 hover:decoration-wavy cursor-pointer transition-all duration-300">
-            Subscrições
-          </span>
-          <span className="hover:underline hover:underline-offset-8 hover:decoration-wavy cursor-pointer transition-all duration-300">
-            Ofereça assinatura floral
           </span>
         </div>
         <div className="flex justify-center items-center space-x-7">
           <h1 className="hidden lg:flex w-full text-xs cursor-pointer hover:underline hover:underline-offset-2 transition-all duration-300">
             Precisa de ajuda?
           </h1>
-          <Link href="/" className="hover:bg-lime-200 p-2 rounded-full transition-all duration-300">
+          <Link
+            href="/"
+            className="hover:bg-lime-200 p-2 rounded-full transition-all duration-300"
+          >
             <ShoppingCartIcon className="w-8 h-8 cursor-pointer "></ShoppingCartIcon>
           </Link>
         </div>

@@ -1,12 +1,9 @@
 const data = [
+  { name: "Flores" },
   { name: "Ramos" },
   { name: "Plantas" },
-  { name: "Exclusivo" },
   { name: "Rosas Vermelhas" },
   { name: "Tulipas Amarelas" },
-  { name: "Decoração" },
-  { name: "Jarra" },
-  { name: "Novidades" },
 ];
 
 export default function Tags() {
