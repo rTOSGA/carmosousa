@@ -1,6 +1,7 @@
 const data = [
   { name: "Ramos" },
   { name: "Plantas" },
+  { name: "Exclusivo" },
   { name: "Rosas Vermelhas" },
   { name: "Tulipas Amarelas" },
   { name: "Decoração" },

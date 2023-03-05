@@ -4,206 +4,68 @@ import { Alert, Carousel } from "flowbite-react";
 import Image from "next/image";
 
 const products = [
+  
   {
     id: 1,
-    name: "Bouquet Multicolor",
-    href: "#",
-    imageSrc:
-      "https://flora-uploads.s3.eu-west-3.amazonaws.com/039e0aad-8e61-4954-8d93-7ad418c4bf62-20210526_183805.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    price: "35.00€",
-    color: "Black",
-  },
-  {
-    id: 2,
-    name: "Sweet Pink",
+    name: "Rose Pink Avalanche",
     href: "#",
     imageSrc:
       "https://flora-uploads.s3.eu-west-3.amazonaws.com/10c276ae-f6c2-4b59-9583-35959d320f5c-20210603_184605.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
-    price: "35.00€",
+    price: "0.63€",
     color: "White",
-  },
-  {
-    id: 3,
-    name: "Red Flame",
-    href: "#",
-    imageSrc:
-      "https://flora-uploads.s3.eu-west-3.amazonaws.com/45b0b96e-e792-45c5-9171-bd9d21d4e762-20210411_155853.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    price: "32.00€",
-    color: "Gray",
-  },
-  {
-    id: 4,
-    name: "Beauty Lime",
-    href: "#",
-    imageSrc:
-      "https://flora-uploads.s3.eu-west-3.amazonaws.com/58ce8603-ed13-49e5-ba7d-6c53a6dd79ac-20210603_184412.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    price: "37.00€",
-    color: "Rose",
-  },
-  {
-    id: 1,
-    name: "Basic Tee",
-    href: "#",
-    imageSrc:
-      "https://flora-uploads.s3.eu-west-3.amazonaws.com/039e0aad-8e61-4954-8d93-7ad418c4bf62-20210526_183805.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    price: "35.00€",
-    color: "Black",
   },
   {
     id: 2,
-    name: "Basic Tee",
-    href: "#",
-    imageSrc:
-      "https://flora-uploads.s3.eu-west-3.amazonaws.com/10c276ae-f6c2-4b59-9583-35959d320f5c-20210603_184605.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    price: "35.00€",
-    color: "White",
-  },
-  {
-    id: 3,
-    name: "Basic Tee",
+    name: "Rose Blush",
     href: "#",
     imageSrc:
       "https://flora-uploads.s3.eu-west-3.amazonaws.com/45b0b96e-e792-45c5-9171-bd9d21d4e762-20210411_155853.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
-    price: "32.00€",
+    price: "0.47€",
     color: "Gray",
-  },
-  {
-    id: 4,
-    name: "Basic Tee",
-    href: "#",
-    imageSrc:
-      "https://flora-uploads.s3.eu-west-3.amazonaws.com/58ce8603-ed13-49e5-ba7d-6c53a6dd79ac-20210603_184412.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    price: "37.00€",
-    color: "Rose",
-  },
-  {
-    id: 1,
-    name: "Basic Tee",
-    href: "#",
-    imageSrc:
-      "https://flora-uploads.s3.eu-west-3.amazonaws.com/039e0aad-8e61-4954-8d93-7ad418c4bf62-20210526_183805.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    price: "35.00€",
-    color: "Black",
-  },
-  {
-    id: 2,
-    name: "Basic Tee",
-    href: "#",
-    imageSrc:
-      "https://flora-uploads.s3.eu-west-3.amazonaws.com/10c276ae-f6c2-4b59-9583-35959d320f5c-20210603_184605.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    price: "35.00€",
-    color: "White",
   },
   {
     id: 3,
-    name: "Basic Tee",
-    href: "#",
-    imageSrc:
-      "https://flora-uploads.s3.eu-west-3.amazonaws.com/45b0b96e-e792-45c5-9171-bd9d21d4e762-20210411_155853.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    price: "32.00€",
-    color: "Gray",
-  },
-  {
-    id: 4,
-    name: "Basic Tee",
+    name: "Rose Green Lime",
     href: "#",
     imageSrc:
       "https://flora-uploads.s3.eu-west-3.amazonaws.com/58ce8603-ed13-49e5-ba7d-6c53a6dd79ac-20210603_184412.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
-    price: "37.00€",
+    price: "0.72€",
     color: "Rose",
-  },
-  {
-    id: 1,
-    name: "Basic Tee",
-    href: "#",
-    imageSrc:
-      "https://flora-uploads.s3.eu-west-3.amazonaws.com/039e0aad-8e61-4954-8d93-7ad418c4bf62-20210526_183805.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    price: "35.00€",
-    color: "Black",
-  },
-  {
-    id: 2,
-    name: "Basic Tee",
-    href: "#",
-    imageSrc:
-      "https://flora-uploads.s3.eu-west-3.amazonaws.com/10c276ae-f6c2-4b59-9583-35959d320f5c-20210603_184605.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    price: "35.00€",
-    color: "White",
-  },
-  {
-    id: 3,
-    name: "Basic Tee",
-    href: "#",
-    imageSrc:
-      "https://flora-uploads.s3.eu-west-3.amazonaws.com/45b0b96e-e792-45c5-9171-bd9d21d4e762-20210411_155853.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    price: "32.00€",
-    color: "Gray",
   },
   {
     id: 4,
-    name: "Basic Tee",
+    name: "Mathiola White",
     href: "#",
     imageSrc:
-      "https://flora-uploads.s3.eu-west-3.amazonaws.com/58ce8603-ed13-49e5-ba7d-6c53a6dd79ac-20210603_184412.jpg",
+      "https://flora-uploads.s3.eu-west-3.amazonaws.com/20230303_171114.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
-    price: "37.00€",
+    price: "0.72€",
     color: "Rose",
   },
   {
-    id: 1,
-    name: "Basic Tee",
+    id: 5,
+    name: "Ranunculus Pink",
     href: "#",
     imageSrc:
-      "https://flora-uploads.s3.eu-west-3.amazonaws.com/039e0aad-8e61-4954-8d93-7ad418c4bf62-20210526_183805.jpg",
+      "https://flora-uploads.s3.eu-west-3.amazonaws.com/20230303_171025.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
-    price: "35.00€",
-    color: "Black",
-  },
-  {
-    id: 2,
-    name: "Basic Tee",
-    href: "#",
-    imageSrc:
-      "https://flora-uploads.s3.eu-west-3.amazonaws.com/10c276ae-f6c2-4b59-9583-35959d320f5c-20210603_184605.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    price: "35.00€",
-    color: "White",
-  },
-  {
-    id: 3,
-    name: "Basic Tee",
-    href: "#",
-    imageSrc:
-      "https://flora-uploads.s3.eu-west-3.amazonaws.com/45b0b96e-e792-45c5-9171-bd9d21d4e762-20210411_155853.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    price: "32.00€",
-    color: "Gray",
-  },
-  {
-    id: 4,
-    name: "Basic Tee",
-    href: "#",
-    imageSrc:
-      "https://flora-uploads.s3.eu-west-3.amazonaws.com/58ce8603-ed13-49e5-ba7d-6c53a6dd79ac-20210603_184412.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    price: "37.00€",
+    price: "0.72€",
     color: "Rose",
   },
+  {
+    id: 6,
+    name: "Ranunculus Orange",
+    href: "#",
+    imageSrc:
+      "https://flora-uploads.s3.eu-west-3.amazonaws.com/20230303_171002.jpg",
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: "0.72€",
+    color: "Rose",
+  },
+  
 ];
 
 export default function MyPage() {
