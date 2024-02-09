@@ -65,7 +65,7 @@ export default function MyPage() {
   return (
     <div className="bg-white">
       <div className="mx-auto   px-4  sm:px-6  lg:px-8">
-        <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 xl:gap-x-3">
+        <div className="mt-6 grid  gap-y-10 gap-x-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 xl:gap-x-3">
           {products.map((product) => (
             <div key={product.id} className="group relative  cursor-pointer  ">
               <div className="max-h-60 aspect-square w-full overflow-hidden rounded-3xl bg-gray-200 group-hover:opacity-95 transition-all duration-300  hover:shadow">

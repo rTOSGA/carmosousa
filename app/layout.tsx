@@ -3,6 +3,7 @@ import "./globals.css";
 import { Inter } from "@next/font/google";
 import Header from "../components/header";
 import WidgetWhatsapp from "../components/whatsapp";
+import Footer from "../components/footer";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -20,7 +21,9 @@ export default function RootLayout({
         <div className="flex flex-col w-full">
           <Header></Header>
           <WidgetWhatsapp></WidgetWhatsapp>
+          
           <div className="flex w-full justify-center">{children}</div>
+          <Footer></Footer>
         </div>
       </body>
     </html>
