@@ -6,7 +6,7 @@ export default function WidgetWhatsapp() {
       <Link
         href={"https://wa.me/919680545"}
         target="_blank"
-        className="fixed z-10 bottom-3 left-3 md:bottom-7 md:left-7  bg-green-600 hover:bg-green-500 hover:scale-105 duration-300 rounded-full w-12 h-12 sm:w-20 sm:h-20 flex justify-center items-center"
+        className="fixed z-10 bottom-3 left-3 md:bottom-7 md:left-7  bg-green-600 hover:bg-green-500 hover:scale-105 duration-300 rounded-full w-16 h-16 sm:w-20 sm:h-20 flex justify-center items-center"
       >
         <svg
           className="h-8 w-8 sm:h-12 sm:w-12"

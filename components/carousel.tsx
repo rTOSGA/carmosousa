@@ -1,8 +1,8 @@
 "use client";
 
-import { Alert, Carousel } from "flowbite-react";
+
 import Image from "next/image";
-import VideoPlayer from "./videoplayer";
+
 
 const products = [
   {
